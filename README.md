@@ -81,6 +81,7 @@ Sau khi chạy **Cell 4**, giao diện Gradio sẽ xuất hiện ngay trong note
 - Nhấn **Dự đoán**.
 - Giao diện sẽ hiển thị kết quả gồm: nhãn dự đoán, độ tin cậy, và biểu đồ xác suất của cả 3 lớp.
 
+```
 ---
 
 ## ⚙️ Cấu Hình
@@ -92,10 +93,10 @@ MODEL_PATH = "../model_checkpoints"  # Đường dẫn đến checkpoint fine-tu
 MAX_LENGTH = 256                     # Độ dài token tối đa
 
 Để tạo đường dẫn public tạm thời nhằm chia sẻ demo từ xa, chỉnh sửa dòng lệnh cuối tại Cell 4:
-
+```
 ```python
 demo.launch(share=True)  # Tạo link public qua Gradio
-
+```
 ## 📤 Đầu Ra Của `predict_sentiment()`
 
 Hàm xử lý trả về cấu trúc dữ liệu dạng Dictionary đồng bộ dải xác suất phục vụ hiển thị:
@@ -110,7 +111,7 @@ Hàm xử lý trả về cấu trúc dữ liệu dạng Dictionary đồng bộ 
     "prob_2_positive": "97.3%",
     "n_tokens":        256
 }
-
+```
 ## 📌 Ghi Chú An Toàn Hệ Thống
 
 * **Tokenizer luôn tải trực tuyến:** Bộ mã hóa (Tokenizer) luôn được tải trực tiếp từ HuggingFace Hub (`vinai/phobert-base`) vì không được lưu trữ kèm trong thư mục checkpoint.
