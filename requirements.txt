@@ -1,0 +1,14 @@
+
+| Thư viện cài đặt | Phiên bản cố định | Vai trò hạ tầng công nghệ kỹ thuật |
+| :--- | :---: | :--- |
+| torch | 2.2.2 | Deep learning framework cốt lõi, quản lý ma trận Tensor song song trên GPU T4. |
+| transformers | 4.40.1 | Nạp cấu hình kiến trúc AutoModelForSequenceClassification từ checkpoint. |
+| tokenizers | 0.19.1 | Bộ công cụ phân rã Subword BPE tốc độ cao (Backend tối ưu hóa bằng Rust). |
+| accelerate | 0.30.1 | Quản lý phân bổ bộ nhớ VRAM tự động và tăng tốc tính toán mixed-precision. |
+| safetensor | 0.4.3 | Định dạng lưu trữ và nạp trọn vẹn tệp trọng số an toàn, chống rủi ro mã độc. |
+| gradio | 6.0.0 | Thiết lập form tương tác Web Blocks đa tầng, kết nối thời gian thực cổng Localhost. |
+| scikit-learn | 1.4.2 | Trích xuất các chỉ số metric đánh giá (Accuracy, Macro-F1) và ma trận nhầm lẫn. |
+| pandas | 2.2.1 | Xử lý cấu trúc bảng, nạp tệp dữ liệu mẫu và phân tích dữ liệu mẫu lỗi thực nghiệm. |
+| numpy | 1.26.4 | Tính toán mảng số, thao tác trên dải ma trận xác suất mềm đầu ra. |
+| sentencepiece | 0.2.0 | Tokenizer phụ trợ quản lý và đồng bộ một số định dạng chuỗi đặc thù. |
+| datasets | 2.19.1 | Quản lý, phân rã cấu trúc và nạp kho dữ liệu mẫu từ HuggingFace chuẩn. |
