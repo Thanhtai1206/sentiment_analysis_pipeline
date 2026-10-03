@@ -57,7 +57,7 @@ Cài đặt các thư viện cần thiết để chạy hệ thống:
 
 ```bash
 pip install torch transformers gradio
-
+```
 ## 🚀 Hướng Dẫn Sử Dụng
 
 ### 1. Chuẩn bị model checkpoint
@@ -81,7 +81,7 @@ Sau khi chạy **Cell 4**, giao diện Gradio sẽ xuất hiện ngay trong note
 - Nhấn **Dự đoán**.
 - Giao diện sẽ hiển thị kết quả gồm: nhãn dự đoán, độ tin cậy, và biểu đồ xác suất của cả 3 lớp.
 
-```
+
 ---
 
 ## ⚙️ Cấu Hình
