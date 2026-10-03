@@ -24,7 +24,7 @@ Nhom04_Tuan5/
 │   ├── overall_comparison_chart.png      # Biểu đồ so sánh hiệu năng tổng quan đồ án
 │   └── error_analysis.csv                # Danh sách các mẫu lỗi phục vụ tra cứu thực nghiệm
 └── requirements.txt                      # Danh mục thư viện và phiên bản cài đặt cố định
-
+```
 ## Phân Tích Sắc Thái Tiếng Việt — PhoBERT
 
 Dự án fine-tune mô hình **PhoBERT** cho bài toán phân loại sắc thái (Sentiment Analysis) trên văn bản tiếng Việt, với giao diện demo tích hợp **Gradio** chạy trực tiếp trong Jupyter Notebook.
