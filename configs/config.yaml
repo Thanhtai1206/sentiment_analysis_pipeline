@@ -1,0 +1,67 @@
+# =========================================================
+# Cấu hình trung tâm cho toàn bộ pipeline (đường dẫn tính từ thư mục gốc project)
+# Mọi script trong src/ và mọi notebook đều đọc từ file này
+# -> đổi tham số ở 1 chỗ, không hard-code rải rác.
+# =========================================================
+seed: 42
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  train_file: train.csv
+  val_file: validation.csv
+  test_file: test.csv
+  text_col: comment
+  label_col: label
+
+labels:
+  0: Tiêu cực
+  1: Trung tính
+  2: Tích cực
+
+preprocessing:
+  lowercase: true
+  normalize_teencode: true
+  # PhoBERT được pre-train trên văn bản đã tách từ (VD: "giảng_viên").
+  # "none"        : không tách từ (giống checkpoint tuần 5 hiện tại)
+  # "underthesea" : tách từ bằng underthesea (pip install underthesea)
+  word_segmenter: none
+
+model:
+  pretrained_name: vinai/phobert-base
+  num_labels: 3
+  max_length: 128          # câu UIT-VSFC rất ngắn; dùng dynamic padding nên không tốn thêm
+  output_dir: models/phobert-sentiment
+
+training:
+  epochs: 5
+  batch_size: 32
+  eval_batch_size: 64
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  max_grad_norm: 1.0
+  use_class_weights: true  # tính tự động từ phân bố nhãn tập TRAIN
+  early_stopping_patience: 2
+  fp16: true               # chỉ bật khi có CUDA
+  num_workers: 0
+
+threshold:
+  # Ngưỡng ưu tiên lớp Trung tính: nếu P(neutral) >= t -> gán nhãn 1.
+  # Chỉ được tìm trên tập VALIDATION, không bao giờ trên TEST.
+  enabled: true
+  search_min: 0.10
+  search_max: 0.60
+  search_step: 0.02
+  # Chỉ dùng cho checkpoint CŨ (chưa có inference_config.json). Checkpoint mới tự lưu ngưỡng.
+  fallback_value: 0.24
+
+baseline:
+  max_features: 20000
+  ngram_range: [1, 2]
+
+results:
+  dir: results
+  figures_dir: results/figures
+  metrics_dir: results/metrics
+  predictions_dir: results/predictions

@@ -1,119 +1,106 @@
-# Phân Tích Sắc Thái Phản Hồi Sinh Viên (UIT-VSFC) — PhoBERT
+# Phân tích sắc thái phản hồi sinh viên (UIT-VSFC) — PhoBERT
+
+Fine-tune **PhoBERT** (`vinai/phobert-base`) phân loại phản hồi sinh viên tiếng Việt thành 3 lớp
+`0 = Tiêu cực`, `1 = Trung tính`, `2 = Tích cực`, so sánh với baseline TF-IDF, kèm phân tích lỗi và demo Gradio.
+
+| | |
+|---|---|
+| Dữ liệu | UIT-VSFC – train 11 426 / validation 1 583 / test 3 166 câu |
+| Thách thức | mất cân bằng nặng: lớp Trung tính chỉ ~4% |
+| Metric chính | **Macro-F1** (accuracy dễ gây ảo giác vì lớp 0 và 2 chiếm ~96%) |
+| Xử lý mất cân bằng | class-weighted Cross-Entropy + ngưỡng ưu tiên lớp Trung tính |
+| Framework | PyTorch + HuggingFace Transformers, scikit-learn, Gradio |
+
 ---
 
-## 📁 Cấu Trúc Cây Thư Mục Kho Mã Nguồn (Repository Structure)
+## Cấu trúc thư mục
 
 ```text
-Nhom04_Tuan5/
-├── Nhom4_Tuan5_4.docx                    # Văn bản báo cáo tiến độ học thuật toàn diện
+sentiment_analysis_pipeline/
+├── configs/
+│   └── config.yaml              # MỌI tham số (đường dẫn, siêu tham số, ngưỡng...) ở 1 chỗ
+├── data/
+│   ├── raw/                     # dữ liệu gốc UIT-VSFC – KHÔNG chỉnh sửa
+│   ├── external/                # new_review*.csv – dữ liệu ngoài, chưa dùng trong huấn luyện
+│   ├── processed/               # tự sinh bởi `python -m src.preprocessing` (không commit)
+│   └── sample/sample_input.csv  # vài câu mẫu để thử predict
+├── src/                         # toàn bộ logic – notebook chỉ gọi lại
+│   ├── config.py                # đọc config, chuẩn hóa đường dẫn
+│   ├── preprocessing.py         # clean_text / tách từ / sinh data/processed
+│   ├── dataset.py               # SentimentDataset + DataLoader (dynamic padding)
+│   ├── baseline.py              # TF-IDF + LogisticRegression / LinearSVC
+│   ├── train.py                 # fine-tune PhoBERT, early stopping, tìm ngưỡng trên validation
+│   ├── evaluate.py              # metric, ngưỡng, ma trận nhầm lẫn, file dự đoán
+│   ├── predict.py               # suy luận 1 câu / cả file CSV (CLI + class SentimentPredictor)
+│   └── utils.py
 ├── notebooks/
-│   ├── 01_final_data_pipeline.ipynb      # Hạ tầng Pipeline nạp và xử lý dữ liệu PyTorch
-│   ├── 02_final_model.ipynb              # Nhật ký huấn luyện, Fine-tuning & Early Stopping
-│   └── 03_error_analysis_demo.ipynb      # Phân tích mẫu lỗi thực nghiệm trên mô hình
-├── src/
-│   └── predict.py                        # Backend suy luận tập trung & Can thiệp ngưỡng động 0.24
+│   ├── 01_eda_data_pipeline.ipynb
+│   ├── 02_train_phobert.ipynb
+│   └── 03_error_analysis.ipynb
 ├── demo/
-│   └── demo.ipynb                        # Ứng dụng giao diện đồ họa tương tác Gradio UI
-├── model_checkpoints/
-│   ├── config.json                       # Tệp cấu hình tham số kiến trúc Transformer
-│   └── model.safetensors                 # Trọng số tối ưu đóng gói an toàn sau huấn luyện
+│   ├── app.py                   # giao diện Gradio (python demo/app.py)
+│   └── demo.ipynb
+├── models/                      # checkpoint (không commit, xem models/README.md)
 ├── results/
-│   ├── final_metrics.csv                 # Bảng kết quả định lượng đối sánh 3 mức
-│   ├── loss_curves.png                   # Biểu đồ đường cong hội tụ kiểm soát Overfitting
-│   ├── phobert_confusion_matrix.png      # Đồ thị ma trận nhầm lẫn tối hậu PhoBERT
-│   ├── overall_comparison_chart.png      # Biểu đồ so sánh hiệu năng tổng quan đồ án
-│   └── error_analysis.csv                # Danh sách các mẫu lỗi phục vụ tra cứu thực nghiệm
-└── requirements.txt                      # Danh mục thư viện và phiên bản cài đặt cố định
+│   ├── figures/  metrics/  predictions/  error_analysis/
+│   └── archive_week5/           # kết quả cũ trước khi refactor (giữ để đối chiếu báo cáo)
+├── reports/                     # báo cáo .docx, slide, mã nguồn LaTeX
+├── tests/                       # pytest
+├── requirements.txt
+└── .gitignore
 ```
-## Phân Tích Sắc Thái Tiếng Việt — PhoBERT
 
-Dự án fine-tune mô hình **PhoBERT** cho bài toán phân loại sắc thái (Sentiment Analysis) trên văn bản tiếng Việt, với giao diện demo tích hợp **Gradio** chạy trực tiếp trong Jupyter Notebook.
-
----
-
-## 📊 Tổng Quan
-
-| Thông tin | Chi tiết |
-| :--- | :--- |
-| **Mô hình gốc** | `vinai/phobert-base` |
-| **Loại task** | Sequence Classification (3 lớp) |
-| **Ngôn ngữ** | Tiếng Việt |
-| **Framework** | PyTorch + HuggingFace Transformers |
-| **Giao diện** | Gradio (nhúng trong Notebook) |
-
-### Nhãn phân loại
-
-| Nhãn | Ý nghĩa |
-| :---: | :--- |
-| `0` | Tiêu cực |
-| `1` | Trung tính |
-| `2` | Tích cực |
-
----
-
-## 🛠️ Yêu Cầu Cài Đặt
-
-Cài đặt các thư viện cần thiết để chạy hệ thống:
+## Cài đặt
 
 ```bash
-pip install torch transformers gradio
+python -m venv .venv
+.venv\Scripts\activate          # Windows   (Linux/macOS: source .venv/bin/activate)
+pip install -r requirements.txt
 ```
-## 🚀 Hướng Dẫn Sử Dụng
 
-### 1. Chuẩn bị model checkpoint
-Đặt thư mục model đã fine-tune vào `./model_checkpoints/`. Thư mục này cần chứa ít nhất các tệp tin sau:
-- `config.json`
-- `model.safetensors`
+## Chạy toàn bộ pipeline
 
-### 2. Chạy Notebook
-Mở tệp tin `demo.ipynb` và thực thi tuần tự từng phân khối lệnh (cell):
-
-| Cell | Mô tả |
-| :--- | :--- |
-| **Cell 1** | Import thư viện & cấu hình (device, label map, max length) |
-| **Cell 2** | Nạp Tokenizer từ HuggingFace + Model từ checkpoint |
-| **Cell 3** | Định nghĩa hàm `predict_sentiment()` |
-| **Cell 4** | Khởi chạy giao diện Gradio trong Notebook |
-
-### 3. Sử dụng giao diện
-Sau khi chạy **Cell 4**, giao diện Gradio sẽ xuất hiện ngay trong notebook hoặc truy cập tại địa chỉ local: `http://127.0.0.1:7860`.
-- Nhập câu phản hồi tiếng Việt vào ô nhập liệu.
-- Nhấn **Dự đoán**.
-- Giao diện sẽ hiển thị kết quả gồm: nhãn dự đoán, độ tin cậy, và biểu đồ xác suất của cả 3 lớp.
-
-
----
-
-## ⚙️ Cấu Hình
-
-Các thông số có thể chủ động điều chỉnh tại **Cell 1**:
-
-```python
-MODEL_PATH = "../model_checkpoints"  # Đường dẫn đến checkpoint fine-tuned
-MAX_LENGTH = 256                     # Độ dài token tối đa
-
-Để tạo đường dẫn public tạm thời nhằm chia sẻ demo từ xa, chỉnh sửa dòng lệnh cuối tại Cell 4:
+```bash
+python -m src.preprocessing      # 1. làm sạch dữ liệu -> data/processed/
+python -m src.baseline           # 2. baseline TF-IDF (CPU, vài giây)
+python -m src.train              # 3. fine-tune PhoBERT (nên dùng GPU: Colab/Kaggle T4)
+python -m src.evaluate --split test   # (tùy chọn) đánh giá lại checkpoint đã lưu
+python -m src.predict "giảng viên nhiệt tình, dễ hiểu"
+python -m src.predict --file data/sample/sample_input.csv
+python demo/app.py               # 4. demo Gradio tại http://127.0.0.1:7860
+pytest                           # kiểm thử nhanh;  pytest -m slow  -> chạy thử cả pipeline với model mini
 ```
-```python
-demo.launch(share=True)  # Tạo link public qua Gradio
-```
-## 📤 Đầu Ra Của `predict_sentiment()`
 
-Hàm xử lý trả về cấu trúc dữ liệu dạng Dictionary đồng bộ dải xác suất phục vụ hiển thị:
+Hoặc chạy lần lượt 3 notebook trong `notebooks/` (cho kết quả giống hệt vì cùng gọi `src/`).
 
-```json
-{
-    "predicted_label": 2,
-    "label_text":      "Tích cực (2)",
-    "confidence":      "97.3%",
-    "prob_0_negative": "1.2%",
-    "prob_1_neutral":  "1.5%",
-    "prob_2_positive": "97.3%",
-    "n_tokens":        256
-}
-```
-## 📌 Ghi Chú An Toàn Hệ Thống
+## Quy trình đánh giá (chống rò rỉ dữ liệu)
 
-* **Tokenizer luôn tải trực tuyến:** Bộ mã hóa (Tokenizer) luôn được tải trực tiếp từ HuggingFace Hub (`vinai/phobert-base`) vì không được lưu trữ kèm trong thư mục checkpoint.
-* **Cấu hình phần cứng:** Mô hình tự động chuyển cấu hình chạy trên **CPU** nếu môi trường không tích hợp GPU; tốc độ phản hồi sẽ chậm hơn đối với các chuỗi văn bản dài.
-* **Xử lý cảnh báo:** Cảnh báo `unauthenticated requests` từ HuggingFace có thể hoàn toàn bỏ qua hoặc khắc phục triệt để bằng cách cấu hình biến môi trường `HF_TOKEN`.
+| Tập | Được dùng để |
+|---|---|
+| **train** | cập nhật trọng số; tính class weights từ phân bố nhãn thực |
+| **validation** | early stopping (giữ epoch có Macro-F1 cao nhất) và **tìm ngưỡng lớp Trung tính** |
+| **test** | chỉ đánh giá **một lần** ở cuối – không dùng để chọn bất kỳ siêu tham số nào |
+
+Luật ngưỡng: nếu `P(Trung tính) ≥ t` → nhãn 1, ngược lại chọn lớp lớn hơn giữa 0 và 2.
+Ngưỡng `t` được lưu vào `models/phobert-sentiment/inference_config.json` và tự động dùng lại trong `predict.py` / demo.
+
+## Kết quả
+
+Baseline (đã chạy lại bằng `python -m src.baseline`, seed 42):
+
+| Mô hình | Val Macro-F1 | Test Accuracy | Test Macro-F1 | Test F1 Trung tính |
+|---|---:|---:|---:|---:|
+| TF-IDF + LogisticRegression | 0.675 | 0.890 | 0.652 | 0.132 |
+| TF-IDF + LogisticRegression (balanced) | 0.757 | 0.865 | 0.714 | 0.344 |
+| TF-IDF + LinearSVC (balanced) | 0.763 | 0.893 | 0.724 | 0.338 |
+| PhoBERT (argmax) | *chạy `src.train`* | | | |
+| PhoBERT + ngưỡng (tìm trên validation) | *chạy `src.train`* | | | |
+
+Sau khi huấn luyện, số liệu PhoBERT nằm ở `results/metrics/phobert_test_summary.json`,
+bảng tổng hợp ở `results/metrics/final_comparison.csv` (notebook 02).
+
+## Ghi chú
+
+- Câu nhập vào demo đi qua **cùng** hàm `preprocess()` như lúc huấn luyện.
+- `preprocessing.word_segmenter: underthesea` trong config bật tách từ (PhoBERT được pre-train trên văn bản đã tách từ) – cần `pip install underthesea` và **huấn luyện lại**.
+- Dữ liệu `data/external/new_review*.csv` chưa rõ nguồn gốc nhãn và phân bố khác UIT-VSFC nên không trộn vào train/test.

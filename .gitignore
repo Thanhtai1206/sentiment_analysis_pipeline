@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+nlp_env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Trọng số mô hình (quá nặng cho git -> chia sẻ qua Google Drive / HuggingFace Hub)
+models/*
+!models/README.md
+*.safetensors
+*.bin
+*.pt
+
+# Dữ liệu sinh ra (tái tạo bằng: python -m src.preprocessing)
+data/processed/*
+!data/processed/.gitkeep
+
+# Biên dịch LaTeX
+reports/latex/*.aux
+reports/latex/*.log
+reports/latex/*.out
+reports/latex/*.synctex.gz
+reports/latex/*.toc
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+_old/
