@@ -98,7 +98,7 @@ pip install -r requirements.txt
 
 ### 1. Tải Trọng Số Mô Hình (Model Checkpoint)
 Do file `model.safetensors` nặng **~540MB** vượt quá giới hạn 100MB của GitHub, trọng số được lưu trữ an toàn tại:
-* 🔗 **Link tải Checkpoint (Google Drive):** `[ĐIỀN_LINK_DRIVE_CỦA_BẠN_VÀO_ĐÂY]`
+* 🔗 **Link tải Checkpoint (Google Drive):** `https://drive.google.com/file/d/1DKqcA_6CW4lXydoyfsIAhxXQaOS1JJto/view?usp=sharing`
 * Sau khi tải về, đặt file `model.safetensors` vào thư mục `06_Model_Checkpoints/` (nằm chung thư mục với `config.json`).
 
 ### 2. Chạy Giao Diện Tương Tác Demo (Gradio UI)
