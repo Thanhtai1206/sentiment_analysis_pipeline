@@ -1,0 +1,246 @@
+﻿comment,true_label,pred_label,prob_0,prob_1,prob_2
+"giảng bài thu hút , dí dỏm .",2,0,0.9705,0.0052,0.0243
+tính điểm thi đua các nhóm .,2,1,0.0353,0.9449,0.0199
+trong trường macbook thầy số hai thì không có máy nào số một .,2,0,0.9859,0.0083,0.0058
+giảng viên dạy sôi nổi .,2,0,0.9766,0.0086,0.0148
+cách mà cô tiếp cận với sinh viên .,1,2,0.1277,0.414,0.4583
+giữa lý thuyết từ vựng với trò chơi để dễ tiếp thu .,0,1,0.1471,0.5302,0.3228
+môn học này giúp chúng em hiểu ra những vấn đề cơ bản .,1,2,0.0106,0.3298,0.6596
+phần lớn chỉ là lý thuyết và bài tập .,2,0,0.982,0.0103,0.0077
+như vậy tụi em sẽ định hướng tốt hơn và tập trung vào những thứ cần thiết .,1,0,0.4275,0.2066,0.3659
+tính thực tế cũng cao so với việc thi lý thuyết lấy điểm .,2,1,0.2525,0.6237,0.1237
+cách dạy đổi mới .,2,1,0.0289,0.8437,0.1273
+"ví dụ phù hợp với nội dung kiến thức , hướng dẫn chi tiết .",1,2,0.0115,0.0192,0.9694
+cần có nhiều giảng viên như cô dạy hơn .,2,0,0.9855,0.0056,0.009
+đề cương thực hành chi tiết .,2,1,0.0381,0.9119,0.05
+chứ không chỉ cách viết một đoạn code mới học từ lý thuyết .,0,1,0.4394,0.5065,0.0541
+"có ba buổi học , chỉ những người tham gia buổi đầu mới biết các buổi tiếp theo .",0,1,0.4403,0.5263,0.0334
+cô hoàng toàn không dùng courses hay các phương tiện liên lạc thông báo .,2,0,0.9882,0.0045,0.0074
+"hay giải theo cách của mình , chưa giải thích được nhiều thắc mắc của sinh viên .",2,0,0.9822,0.0064,0.0114
+mong cô luôn giữ được phong độ đó .,2,0,0.464,0.1468,0.3892
+kỹ những chương cuối .,1,2,0.0875,0.2822,0.6302
+đặt nhiều câu hỏi trong lúc dạy .,2,0,0.8798,0.072,0.0482
+có giờ tiếp sinh viên .,2,1,0.0267,0.9276,0.0457
+thầy dạy dễ hiểu tuy nhiên nhiều lúc hơi nhanh .,0,2,0.176,0.0323,0.7917
+cô cho em 10 điểm thực hành colonlove .,1,2,0.0069,0.3903,0.6028
+"cô cho tài liệu học tập là một trang web , lên đó tự học và làm đồ án .",0,1,0.092,0.8381,0.0699
+chương trình học thú vị .,2,1,0.0155,0.8789,0.1056
+thuyết trình thường xuyên .,0,2,0.0218,0.032,0.9462
+làm bài giảng sinh động .,0,2,0.01,0.0917,0.8982
+có kết hợp với bài tập ví dụ .,1,2,0.0061,0.028,0.9659
+"vui vẻ , hỏi thầy thầy rep lại rất nhanh .",2,0,0.7963,0.021,0.1827
+bài tập đầy đủ .,1,2,0.0131,0.1302,0.8567
+bài giảng bằng tiếng anh giúp sinh viên tiếp cận ngoại ngữ tốt hơn .,0,2,0.0163,0.0295,0.9542
+có cung cấp tài liệu cho sinh viên .,1,2,0.0389,0.2189,0.7422
+các bài thực hành có liên quan tới nghiệp vụ .,2,1,0.0671,0.8349,0.098
+em không hiểu .,0,1,0.0922,0.8958,0.012
+ngoài ra còn nhiều kiến thức ngoài .,1,2,0.1441,0.2357,0.6202
+sự kiên trì của giảng viên với lớp dù sinh viên có mặt khá ít .,2,0,0.7777,0.0882,0.1341
+cụ thể doubledot về việc hướng dẫn bài tập về nội dung đó .,1,0,0.8181,0.1675,0.0144
+cách tính điểm cộng của giáo viên có điểm quá trình .,1,0,0.9455,0.0283,0.0262
+nhiều bài thuyết trình .,1,0,0.3915,0.3675,0.241
+em nghĩ như vậy sẽ tốt hơn vì họ sẽ biết được khả năng của sinh viên trong lớp tới đâu để cho bài thực hành được phù hợp với trình độ của sinh viên .,1,0,0.946,0.0366,0.0174
+cách dạy chuyên nghiệp .,2,1,0.0129,0.8258,0.1613
+bài tập phong phú .,2,1,0.0449,0.8408,0.1142
+dạy kết hợp với các hoạt động liên quan đến bài học để sinh viên dễ dàng nắm và nhớ kiến thức hơn .,0,2,0.0265,0.0098,0.9638
+thân thiện và dễ tiếp thu hơn .,0,2,0.0317,0.053,0.9153
+"thầy dạy tận tâm , nhưng thầy thường nói đến những phần nghiên về lập trình mạng .",0,2,0.4803,0.0188,0.5009
+"giảng viên trẻ , nhiệt huyết nhưng thiếu kinh nghiệm , khuyến khích sinh viên thực hành trên hackerrankdotcom .",2,0,0.9221,0.0084,0.0696
+dứt khoát .,2,1,0.0188,0.8964,0.0849
+tiết học lúc nào cũng sôi nổi .,2,0,0.9592,0.0273,0.0135
+dạy full english .,0,1,0.021,0.5769,0.4021
+đảm bảo cho sinh viên không ngủ gật .,1,2,0.0115,0.0208,0.9677
+nắng vào buổi sáng ở gần cửa sổ .,0,1,0.1906,0.7564,0.053
+thầy nền cộng điểm phát biểu hay có nhiều điểm cộng hơn .,0,2,0.3154,0.0162,0.6684
+em thấy thầy giảng hơi bị buồn ngủ .,2,0,0.9783,0.0119,0.0098
+làm sao có thể tìm thấy điểm không hài lòng được .,2,0,0.9725,0.02,0.0075
+"giảng viên truyền đạt kiến thức một cách máy móc , không có hiệu quả , tạo không gian học tập áp lực , chán nản cho sinh viên .",2,0,0.984,0.0044,0.0116
+"thầy có thái độ phân biệt , chỉ quan tâm đến một vài sinh viên .",0,2,0.1957,0.0514,0.7529
+cho sinh viên hiểu rõ về nội dung môn học .,0,2,0.0267,0.0704,0.9029
+"em có đi học ở một trung tâm ngoài trường , tiền học phí so với trường mình về số tiết là gần như tương đương nhau nhưng chất lượng học rất khác nhau , em được đảm bảo giờ lên lớp đúng , thực hành nói , nghe mỗi buổi học .",0,1,0.1469,0.5385,0.3147
+đó là điều mà em mong muốn mỗi khi đến lớp .,2,1,0.0635,0.7022,0.2343
+đây là những ví dụ nhập môn mà các em học sinh lớp 8 - 9 khi bắt đầu được học về quy hoạch động để đi thi học sinh giỏi .,1,2,0.0358,0.4498,0.5144
+"giảng viên vui tính , cởi mở , thỉnh thoảng cũng hay khó tính với vài học sinh lười trong lớp .",2,0,0.7824,0.0252,0.1924
+"thích nhất phần thuật toán dijktra , vì phần này nhờ cấu trúc rời rạc nên thầy giảng thì em biết .",2,0,0.6238,0.1889,0.1872
+"thầy có vẻ hơi bận rộn , gặp thầy có vẻ khó .",1,0,0.982,0.0105,0.0075
+"hơi khó tính , bớt khó tính .",0,1,0.2582,0.608,0.1338
+khi được đề cập thì thầy cho đó là mục tiêu cho các bạn tự tìm hiểu nhằm phát huy tốt nhất tư duy .,1,2,0.048,0.144,0.8081
+em xin cám ơn !,2,1,0.0101,0.9786,0.0113
+cần có nhiều giảng viên có phương pháp dạy như thầy wzjwz147 .,2,0,0.9762,0.0091,0.0147
+"cô quá chất , đi dạy chỉ cần cái điện thoại .",2,0,0.9261,0.0139,0.06
+cô hơi hiền .,2,0,0.909,0.0655,0.0254
+"phòng máy cũ , nhưng nhìn chung thì không có ảnh hưởng gì vì thầy dạy rất nhiệt tình .",1,2,0.0358,0.0474,0.9168
+"giảng viên ít dạy từ mới , cấu trúc ngữ pháp vdotv .",2,0,0.9858,0.0051,0.0091
+"thầy giảng khá chậm rãi , mạch lạc , dễ tiếp thu nên có thể giải đáp được những khúc mắc của học sinh .",2,0,0.9682,0.0056,0.0263
+"nếu có môn học nào trong học kỳ tiếp theo mà thầy giảng dạy được , mong phòng đào tạo điều kiện cho thầy tiếp tục hướng dẫn lần sau .",2,0,0.9667,0.0159,0.0174
+mong cô ở lâu với trường .,2,0,0.9485,0.0208,0.0307
+nói dễ nghe .,1,2,0.0074,0.0173,0.9753
+cầu kỳ .,1,0,0.7458,0.2402,0.014
+hy vọng môn nào cũng như môn này thì quá tốt .,2,0,0.839,0.1146,0.0464
+do khi ra trường các công ty chủ yếu đánh mạnh phần thực hành và vận dụng .,1,0,0.9868,0.006,0.0073
+giáo viên truyền đạt kinh nghiệm thực tế nhiều .,1,2,0.0099,0.0071,0.983
+vì giữa kỳ do em bỏ lở .,1,0,0.7002,0.288,0.0118
+nhanh nhẹn .,2,0,0.9798,0.0082,0.012
+giảng viên chưa đi sâu vào vấn đề bài học .,2,0,0.9859,0.0044,0.0097
+sự tận tình .,1,2,0.005,0.0117,0.9833
+không làm bài thuyết trình nhưng vẫn được nộp báo cáo .,1,0,0.5632,0.3961,0.0407
+có một số buổi nghỉ .,0,1,0.05,0.9356,0.0144
+thầy dạy đủ nội dung bài học .,1,2,0.0101,0.0289,0.9611
+có thể nhiều bạn thích nhưng bản thân mình thấy thầy nói một vấn đề hơi dài dòng .,1,0,0.9816,0.0112,0.0072
+he fixes our tasks thoroughly .,2,1,0.0768,0.8577,0.0654
+cập nhật giáo trình .,0,1,0.0171,0.973,0.0099
+lên lớp đều .,1,2,0.0358,0.32,0.6441
+cô dạy cũng ok .,2,1,0.0497,0.7662,0.1842
+có thể làm demo trực tiếp người ở dưới làm theo .,0,1,0.1298,0.8406,0.0296
+"đối với cô wzjwz32 , cô rất tận tình , giải đáp thắc mắc và hướng đến sinh viên cùng trao đổi đối với y , hoàn toàn tách biệt với sinh viên , không có hướng trao đổi mà là hướng tra khảo kiến thức sinh viên .",1,2,0.0042,0.0052,0.9907
+nếu yêu cầu bài tập thì có thể nộp giấy riêng cho cô .,1,0,0.8854,0.1004,0.0142
+cô cho bài tập về nhà và có hình thức ghi tên chép phạt nếu không làm .,0,1,0.1099,0.7156,0.1746
+cung cấp đủ tài liệu học tập trên courses .,2,1,0.0736,0.507,0.4193
+lớp buồn không có ý kiến nhiều .,0,1,0.0108,0.9687,0.0205
+sử dụng hiệu quả giờ lên lớp .,2,1,0.0276,0.6791,0.2933
+"mới đầu tiên em nghĩ thầy khó tính gây áp lực cho em , thầy cho làm deadline quá trời mà những lớp khác không có , nhưng đến bây giờ em mới hiểu nhờ thầy em biết được nhiều dạng bài tập hơn , thầy thích hợp dạy môn kiến trúc máy tính , nhưng mà thầy dạy phần cứng hay hơn ấy ạ .",2,0,0.9484,0.0135,0.038
+thầy nên cho nhiều ví dụ hơn .,2,0,0.9851,0.0052,0.0096
+còn nghỉ giữa buổi khá nhiều và làm tốn thời gian vô ích .,2,0,0.9861,0.0048,0.0091
+"thầy dạy hay , truyền đạt tốt , mong phòng công tác sinh viên liên hệ thầy để có phương pháp chiến lược dạy số kiến thức đó nhưng với thời gian ít hơn , chứ nếu một bài dạy trong một năm thì sinh viên thế nào chẳng giỏi .",2,0,0.9636,0.0079,0.0285
+"nói hơi nhanh , cho bài tập thêm hơi khó .",2,0,0.9864,0.0064,0.0072
+slide bài giảng chưa được đưa lên .,2,0,0.9891,0.0047,0.0062
+tâm lý học sinh !,2,1,0.0063,0.8821,0.1116
+dạy tương đối đầy đủ chương trình .,1,2,0.0063,0.0116,0.9821
+có giáo trình cho môn học .,2,1,0.036,0.9074,0.0566
+"có mở rộng vấn đề , liên hệ thực tế .",2,1,0.0548,0.5438,0.4014
+hy vọng học kỳ sau có thể học với cô .,2,0,0.9251,0.0332,0.0417
+làm được nhiều bài tập .,1,2,0.0512,0.2685,0.6804
+với lại đặc thù sinh viên trường em nó khác cô ạ .,1,0,0.9064,0.0822,0.0114
+quá nhiều kiến thức cần nắm nhưng thời gian có hạn .,1,0,0.9827,0.0082,0.0091
+bài tập nhiều .,0,2,0.3477,0.128,0.5243
+thầy dạy khá ổn .,1,2,0.0194,0.0345,0.946
+thêm nhiều bài tập hay .,1,2,0.0556,0.0352,0.9093
+có kiến thức để lập trình .,2,1,0.0236,0.8207,0.1557
+thuyết trình trước lớp bằng tiếng anh theo chủ đề .,2,1,0.0226,0.9609,0.0165
+không song song với kiến thức được học ở lớp lý thuyết .,2,1,0.0342,0.9257,0.0401
+có sử dụng website môn học để trao đổi tài liệu .,2,1,0.13,0.663,0.207
+luôn dạy đúng và đủ số tiết .,1,2,0.0255,0.0581,0.9165
+thầy không up slide bài giảng lên website môn học .,2,0,0.9881,0.005,0.0069
+nhiều bài tập về nhà .,0,2,0.2886,0.2613,0.4501
+không có điều gì không hài lòng .,2,1,0.0079,0.9739,0.0182
+cho các nhóm lên trình bày để tránh việc các bạn copy bài trên mạng và không hiểu bài .,2,0,0.9383,0.0407,0.021
+môn này em học tệ nên không có ý kiến .,0,1,0.0127,0.9735,0.0138
+"nghiêm khắc trong khi dạy , kiến thức chuyên ngành cao .",0,2,0.0086,0.011,0.9804
+có nhiều ví dụ và giải thích rõ hơn .,0,2,0.3129,0.0519,0.6352
+"thầy dạy có tâm , nhiệt tình nhưng mà nói hơi nhanh chút xíu .",1,0,0.9374,0.009,0.0537
+học thoải mái không ràng buộc .,2,0,0.6914,0.0235,0.285
+giáo viên tạo nhiều cơ hội cho sinh viên được luyện nói tiếng anh trên lớp .,1,2,0.0095,0.0112,0.9793
+thực hành có nhiều bài tập về thực tế càng tốt !,2,0,0.6211,0.0229,0.356
+"cô thân thiện , nhiệt tình , nhưng cô nên kể chuyện hay phà trò gì đó một chút dotdotdot hi hi .",2,0,0.903,0.0173,0.0797
+tổ chức tham quan doanh nghiệp .,2,1,0.0353,0.9468,0.0179
+đọc slide từ đầu tới cuối .,0,2,0.1521,0.2162,0.6317
+mong thầy giảng dạy ở những môn tiếp theo .,2,0,0.9766,0.0081,0.0153
+cập nhật nguồn tài liệu cho sinh viên .,0,2,0.09,0.213,0.697
+omg .,0,1,0.014,0.975,0.011
+"có mở rộng nội dung giới thiệu về một số nền tẳng mới như doubledot blackbery , tizen nền tảng đa ứng dụng doubledot phonegap , titanium , zun .",2,1,0.0602,0.8722,0.0676
+giảng viên hay đi công tác .,0,2,0.0623,0.0206,0.9171
+được trải nghiệm thực tế sẽ giúp cho môn học thêm phần thú vị và sự thú vị đó sẽ tạp động lực cho sinh viên tự tìm hiểu sau này .,0,2,0.0883,0.032,0.8796
+có nhiều thời gian hơn để gặp giáo viên và thực hành trên lớp .,1,0,0.6033,0.3263,0.0704
+kỹ lưỡng .,2,1,0.0179,0.7011,0.2811
+nên nhiều vấn đề thầy giảng còn hơi mông lung khó hiểu .,2,0,0.9832,0.0061,0.0108
+trong quá trình dạy hướng dẫn chi tiết .,2,1,0.0238,0.6957,0.2805
+"sẵn sàng giảng lại nếu một bạn nào đó không hiểu , nhiều lần cho đến khi bạn hiểu rõ vấn đề .",2,0,0.5304,0.2255,0.2441
+"viết bài nhiều , học ngoài giờ nhiều .",2,0,0.9143,0.0472,0.0386
+cập nhật thông tin môn học trên courses .,0,1,0.0635,0.8215,0.115
+có nhiều giờ chữa và giải bài tập hơn nữa .,0,2,0.3104,0.1354,0.5543
+"hơi nghiêm quá , nhưng không vấn đề , rất ok .",2,1,0.0735,0.6559,0.2706
+làm đồ án phải báo cáo mỗi 2 tuần .,2,0,0.8539,0.121,0.0251
+được nói cặp .,2,1,0.0146,0.9469,0.0385
+tốt rồi .,2,1,0.0643,0.7584,0.1773
+đưa ra lịch thự hành các môn trước khi đăng ký môn học .,0,1,0.4231,0.561,0.0159
+nói chung là không có vấn đề tiêu cực với phương pháp của cô .,1,0,0.9666,0.0253,0.0082
+vì thời gian trong lớp tập trung hơn .,1,0,0.503,0.4737,0.0233
+yêu cầu khá cao cho sinh viên về môn học .,0,2,0.0258,0.0238,0.9504
+"cô dạy lý thuyết ngắn gọn , bài tập thường xuyên !",2,0,0.9125,0.0062,0.0813
+ví dụ của thầy cũng chưa rõ ràng .,2,0,0.9881,0.0044,0.0075
+cứ lo tụi em không hiểu mà dạy đi dạy lại tới khi hiểu rõ vấn đề mới qua phần mới .,2,0,0.9647,0.0175,0.0178
+vì thầy không đến lớp giảng dạy bữa nào cả nên em không biết nhận xét .,1,0,0.9683,0.0227,0.009
+"em được biết đây là kỳ dạy cuối cùng của thầy nên em chúc thầy sức khỏe dồi dào , gia đình hạnh phúc .",1,2,0.0266,0.077,0.8964
+cho sinh viên những bài tập cơ bản để tìm hiểu về bài giảng lý thuyết .,1,2,0.1209,0.0717,0.8074
+mặc dù có kiến thức tốt !,1,0,0.6779,0.2345,0.0877
+"nhắc nhở sinh viên là ý tốt của thầy , nhưng thật sự tụi em thấy rất áp lực với môn học này .",0,2,0.016,0.0481,0.936
+chúc thầy có một học kỳ khác thành công hơn với môn học hiện tại .,2,0,0.699,0.0589,0.2421
+thầy luôn tạo một vẻ bề ngoài khiến cho sinh viên căng thẳng khi học .,0,2,0.3111,0.0299,0.659
+"cung cấp giáo trình đầy đủ , phiên bản có thể xem được trên máy tính pdf hoặc doc .",2,1,0.218,0.601,0.181
+giúp sinh viên tiếp thu kiến thức nhưng không làm nhàm chán .,0,2,0.0092,0.009,0.9818
+"bài tập thầy cho cũng đòi hỏi phải đến lớp , nghe giảng và phải hiểu thật sự mới làm được .",1,0,0.9808,0.0065,0.0127
+nêu được hi vọng ở khóa sau thầy sẽ cho thêm tài liệu để tự học .,0,2,0.1851,0.0388,0.7761
+chỉ cần khoảng 60% gần tương ứng với nội dung thi là đủ .,1,0,0.7703,0.2007,0.029
+truyền đạt bài học .,1,2,0.0291,0.0649,0.906
+"yêu cầu sinh viên tự học , tự chuẩn bị .",0,2,0.0584,0.1865,0.7552
+cái này vấn đề chung của cả nước mất rồi colonhihi .,1,0,0.8942,0.0894,0.0164
+có lời cho công việc sau này của mình không .,0,1,0.0132,0.9687,0.0181
+"hài lòng nhất là việc rep mail của thầy , cực nhanh trừ thứ bảy và chủ nhật thầy giải lao không rep mail .",2,0,0.9843,0.0074,0.0083
+chỉ cần cho bài tập rồi làm nộp .,1,0,0.9175,0.0721,0.0105
+cách tính điểm chi tiết .,0,1,0.0171,0.9677,0.0152
+"vui tính , tận tình chỉ dạy , nhưng nhiều nội dung giảng chưa kỹ và khó hiểu .",2,0,0.9055,0.0063,0.0883
+cảm thấy bình thường .,1,2,0.0138,0.1773,0.8089
+em đóng góp cũng chỉ mong để sau này các lớp xử lý ngôn ngữ tự nhiên đông hơn và nhiều sinh viên chọn hơn .,2,1,0.3429,0.6053,0.0518
+thầy dạy ổn .,1,2,0.0432,0.4413,0.5155
+yêu cầu cao .,0,2,0.018,0.0459,0.9361
+"giảng viên thực hành nhiều bài thực hành trực quan , giảng dễ hiểu .",0,2,0.006,0.0042,0.9897
+thầy dạy rất vui nhưng đôi khi còn rất khó tính .,1,0,0.9664,0.0062,0.0273
+cho bài tập từ dễ tới khó .,1,2,0.1793,0.1135,0.7072
+tuy nhiên thầy ít đùa .,1,0,0.9022,0.0414,0.0564
+lắng nghe cách giải quyết vấn đề của sinh viên .,1,2,0.0056,0.0261,0.9683
+nên cho thực hành nhiều hơn .,2,0,0.9825,0.0086,0.0088
+hỗ trợ sinh viên làm đồ án .,2,1,0.0143,0.7469,0.2388
+mưa cho nghỉ ạ colonsmile .,0,1,0.1395,0.8301,0.0304
+"bài tập thầy cho quá khó , nhưng không sao đề ra như vậy mới nâng cao trình độ của tụi em .",2,0,0.9854,0.007,0.0076
+"cô dạy rất rõ ràng , rành mạch , nhưng hơi thiên về lý thuyết .",0,2,0.0351,0.0081,0.9567
+năng động .,2,1,0.0214,0.9417,0.0369
+she's very sociable .,2,1,0.0576,0.8766,0.0658
+khả năng tư duy được nâng cao .,2,1,0.0874,0.6127,0.2999
+"chất lượng môn tốt , em không ý kiến .",2,1,0.009,0.6979,0.2931
+chú thích những phần cần phải tập trung .,1,2,0.3602,0.0929,0.5468
+cô cho làm đồ án nhóm với lại cho bài tập theo từng tuần nên sinh viên có thời gian sắp xếp để làm bài .,1,0,0.6598,0.1561,0.1841
+tập trung thực hành kiến thức trọng tâm của giờ ký thuyết .,1,0,0.5558,0.1618,0.2825
+"cũng như bao đứa sinh viên khác bước vào phòng báo cáo đồ án , tôi cảm thấy rất hồi hộp và lo sợ bởi lẽ đồ án lần này tôi không thật sự code 100% , tôi tham khảo nó từ internet và thay đổi một vài thứ để hoàn chỉnh và chờ đến ngày báo cáo .",0,1,0.396,0.5803,0.0237
+"dạy liên hệ thực tế , giảng dễ hiểu .",0,2,0.004,0.0059,0.9901
+wzjwz217 là thầy nào ?,0,1,0.014,0.9724,0.0135
+giáo viên ân cần nhiệt tình .,2,0,0.5397,0.0114,0.4489
+bài thực hành nên mang tính chất bắt buộc hoặc khuyến khích sinh viên làm để lấy điểm cộng để tạo động lực cũng như hứng thú với bài thực hành hơn .,2,0,0.9852,0.0057,0.0091
+em rất muốn học thầy vào kỳ sau .,2,0,0.2756,0.4852,0.2392
+thống nhất hình thức thi thực hành giữa các lớp với nhau .,0,1,0.0769,0.9048,0.0183
+nhiều ví dụ .,1,2,0.0759,0.0933,0.8308
+"thầy giảng nhiệt tình , sát trọng tâm , dễ hiểu , mong thầy kỳ sau sẽ dạy môn xác xuất thống kê .",1,2,0.1386,0.0109,0.8505
+đi sâu vào vấn đề khó hơn .,2,0,0.9719,0.016,0.0121
+đồng nhất một giáo trình giảng dạy .,0,1,0.0421,0.8417,0.1162
+mỗi dạng bài thì thầy ghi ra 3 câu bài tập là ổn rồi .,1,0,0.4005,0.4617,0.1378
+"một số chỗ khó hiểu , nhưng nếu chăm chỉ tự học thì sẽ khắc phục được .",1,0,0.3681,0.3027,0.3293
+"bài tập thầy đưa ra cho lớp hơi khó , nhưng quá đó giúp chúng em rèn luyện tư duy thuật toán .",0,2,0.0523,0.062,0.8858
+trao đổi trên hệ thống website môn học .,2,1,0.0181,0.955,0.0269
+cám ơn thầy đã giúp đỡ em .,1,2,0.0062,0.1492,0.8446
+chăm chú bài tập .,1,2,0.0218,0.2078,0.7704
+giảng dạy thực tế .,1,2,0.0052,0.0126,0.9823
+"mục đích của môn học , có liên quan gì dến những môn học trước và sau này .",0,1,0.2087,0.7634,0.0279
+cần có giáo trình chi tiết về môn học cho sinh viên dễ nắm bắt .,2,0,0.981,0.0054,0.0136
+"dạy dễ hiểu , không bị rối .",0,2,0.0065,0.0099,0.9836
+giảng viên chia thành nhiều nhóm để sinh viên thảo luận có hiệu quả .,0,2,0.0211,0.0093,0.9696
+"cho thảo luận , làm seminar .",2,1,0.0684,0.9145,0.0171
+thay vì đưa bài ra rồi bảo các bạn nộp kết quả .,1,0,0.7677,0.2206,0.0117
+nghỉ sinh em bé vui vẻ nha cô .,1,2,0.0038,0.012,0.9842
+thương xuyên chỉ dẫn trên moodle .,2,1,0.0282,0.9042,0.0677
+đôi lúc hơi sợ .,0,1,0.2885,0.6952,0.0163
+còn điều không thích nhất vẫn giống cái kia thôi .,0,1,0.0267,0.958,0.0153
+học để làm gì !,0,1,0.1095,0.8793,0.0112
+dạy kỹ các phần quan trọng .,1,2,0.0403,0.0305,0.9292
+các thành viên khác chịu thua .,0,1,0.1451,0.8321,0.0227
+cô dạy rất tận tình và gần gũi nhưng tại tụi em lười quá .,2,0,0.698,0.0168,0.2852
+"nhìn chung em hài lòng về môn học này , nên em không có ý kiến khác .",2,1,0.0101,0.785,0.2049
+có lúc em còn cảm thấy có lỗi vì công sức của cô trên lớp như vậy mà mình lại làm biếng học bài .,1,0,0.9661,0.0211,0.0127
+"những bạn không chịu học và lơ là từ trước giờ vẫn qua hai môn của thầy một cách dễ dàng và thậm chí còn đạt được điểm cao , do đề cơ bản và còn được sử dụng tài liệu , laptop .",0,2,0.286,0.1029,0.611
+nâng cao kiến thức .,2,1,0.073,0.8206,0.1064
+em chưa nhớ thầy là ai nữa .,1,0,0.863,0.1275,0.0095
+dựa vào một game cơ bản để sinh viên hiểu rõ hơn .,1,0,0.2727,0.4664,0.2609
+"có hoạt động trò chơi , hát tiếng anh .",1,2,0.0131,0.2634,0.7235
+đó là một động lực rất lớn để tụi em hoàn thành hết tất cả bài tập của thầy .,1,2,0.0205,0.0792,0.9003
+"có thể không chữa cũng được , ai thắc mắc sẽ hỏi riêng .",0,1,0.1333,0.8242,0.0425
+giảng viên làm mẫu một số bài thực hành cho sinh viên .,2,1,0.0281,0.8126,0.1593
+đi học rất ít nên rất mất công người đi dậy .,1,0,0.9822,0.0081,0.0097
+chô tiếng việt giống như là copy nguyên văn từ google dịch vậy .,1,0,0.8735,0.1142,0.0123

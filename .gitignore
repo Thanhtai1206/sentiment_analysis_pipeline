@@ -1,0 +1,33 @@
+# === Bỏ qua các file trọng số mô hình nặng (>100MB) ===
+06_Model_Checkpoints/model.safetensors
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# === Bỏ qua file nén ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# === Python & Jupyter Cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# === Môi trường ảo (Virtual Environments) ===
+nlp_env/
+venv/
+env/
+.env
+
+# === IDE & Hệ thống ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
