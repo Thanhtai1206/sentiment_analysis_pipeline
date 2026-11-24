@@ -41,14 +41,14 @@ def clean_text(text: str) -> str:
     text = re.sub(r'\b(đc)\b', 'được', text)
     text = re.sub(r'\b(khg|ko|kh|k)\b', 'không', text)
     text = re.sub(r'\b(ok|ổn)\b', 'tạm ổn', text)
-    text = re.sub(r'[^\w\s,.\-+]', ' ', text)
+    text = re.sub(r'[^\w\s,.+\-]', ' ', text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 def predict_sentiment(text: str) -> dict:
     """
     Hàm xử lý khép kín: Nhận chuỗi văn bản thô -> Làm sạch -> Tokenize BPE -> Forward GPU -> Trả xác suất 3 lớp.
-    Áp dụng thuật toán nới ngưỡng động 0.24 của Tuần 5.
+    ngưỡng tối ưu tìm trên tập Validation.
     """
     if not text or not text.strip():
         return {"label": "Không có dữ liệu", "label_id": -1, "confidence": 0.0, "probabilities": {}}
@@ -81,7 +81,7 @@ def predict_sentiment(text: str) -> dict:
         probabilities = torch.softmax(logits, dim=1).squeeze(0).cpu().tolist()
         
 
-        if probabilities[1] >= 0.24:
+        if probabilities[1] >= 0.49:
             prediction_id = 1
         else:
   

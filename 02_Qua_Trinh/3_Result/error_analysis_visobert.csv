@@ -1,0 +1,271 @@
+﻿comment,label,pred_label,true_label_name,pred_label_name,prob_0,prob_1,prob_2
+tính điểm thi đua các nhóm .,2,1,Tích cực,Trung tính,0.0185,0.9702,0.0113
+trong trường macbook thầy số hai thì không có máy nào số một .,2,0,Tích cực,Tiêu cực,0.9752,0.0157,0.0091
+cách mà cô tiếp cận với sinh viên .,1,2,Trung tính,Tích cực,0.0916,0.0013,0.9072
+môn học này giúp chúng em hiểu ra những vấn đề cơ bản .,1,2,Trung tính,Tích cực,0.0364,0.0079,0.9557
+phần lớn chỉ là lý thuyết và bài tập .,2,0,Tích cực,Tiêu cực,0.9382,0.003,0.0588
+như vậy tụi em sẽ định hướng tốt hơn và tập trung vào những thứ cần thiết .,1,0,Trung tính,Tiêu cực,0.8215,0.0071,0.1714
+"ấn tượng nhất doubledot dạy không cần máy chiếu hay laptop , nhưng lượng bài giảng có thể nói là "" khủng "" , nhìn thầy ghi bài giảng lên bảng mà bất ngờ .",2,0,Tích cực,Tiêu cực,0.829,0.0021,0.1689
+đưa nhiều bài tập khó mà có lời giải cho sinh viên về nhà nghiên cứu .,2,0,Tích cực,Tiêu cực,0.867,0.0015,0.1315
+rất thực tế không dài dòng .,2,0,Tích cực,Tiêu cực,0.7544,0.0038,0.2419
+tính thực tế cũng cao so với việc thi lý thuyết lấy điểm .,2,1,Tích cực,Trung tính,0.148,0.685,0.167
+không slide .,0,1,Tiêu cực,Trung tính,0.3379,0.6011,0.0609
+"ví dụ phù hợp với nội dung kiến thức , hướng dẫn chi tiết .",1,2,Trung tính,Tích cực,0.0386,0.0015,0.9599
+cần có nhiều giảng viên như cô dạy hơn .,2,0,Tích cực,Tiêu cực,0.6818,0.0015,0.3166
+đề cập nhiều thông tin mở rộng ngoài xã hội .,2,0,Tích cực,Tiêu cực,0.6708,0.001,0.3283
+tâm lý .,1,2,Trung tính,Tích cực,0.0198,0.007,0.9731
+cô hoàng toàn không dùng courses hay các phương tiện liên lạc thông báo .,2,0,Tích cực,Tiêu cực,0.956,0.0094,0.0346
+giảng viên giàu kinh nghiệm sư phạm .,2,0,Tích cực,Tiêu cực,0.9231,0.0045,0.0724
+"hay giải theo cách của mình , chưa giải thích được nhiều thắc mắc của sinh viên .",2,0,Tích cực,Tiêu cực,0.9216,0.0016,0.0769
+"không có , giáo viên dạy rất ổn !",2,1,Tích cực,Trung tính,0.0032,0.7753,0.2215
+cảm ơn thầy giúp cho em hiểu rõ hơn về công việc của một tester .,2,1,Tích cực,Trung tính,0.0155,0.6956,0.2889
+sinh viên hiểu thầy mới cho về .,2,0,Tích cực,Tiêu cực,0.7319,0.0041,0.2639
+kỹ những chương cuối .,1,2,Trung tính,Tích cực,0.061,0.0041,0.9349
+có giờ tiếp sinh viên .,2,1,Tích cực,Trung tính,0.0034,0.9004,0.0961
+ít demo .,0,1,Tiêu cực,Trung tính,0.3594,0.602,0.0386
+cả cuộc sống sau này lẫn trong môn học .,1,0,Trung tính,Tiêu cực,0.9258,0.0144,0.0597
+cô cho em 10 điểm thực hành colonlove .,1,2,Trung tính,Tích cực,0.0848,0.0113,0.9039
+"cô cho tài liệu học tập là một trang web , lên đó tự học và làm đồ án .",0,1,Tiêu cực,Trung tính,0.268,0.4208,0.3112
+"học thầy từ đầu học kỳ một đến tận hết học kỳ , quả là không sai .",2,0,Tích cực,Tiêu cực,0.9436,0.0029,0.0535
+thuyết trình thường xuyên .,0,1,Tiêu cực,Trung tính,0.0163,0.9615,0.0222
+làm bài giảng sinh động .,0,2,Tiêu cực,Tích cực,0.0458,0.0025,0.9517
+có kết hợp với bài tập ví dụ .,1,2,Trung tính,Tích cực,0.0111,0.1387,0.8502
+bài tập đầy đủ .,1,2,Trung tính,Tích cực,0.0052,0.3398,0.655
+bài giảng bằng tiếng anh giúp sinh viên tiếp cận ngoại ngữ tốt hơn .,0,2,Tiêu cực,Tích cực,0.1871,0.0046,0.8083
+có cung cấp tài liệu cho sinh viên .,1,2,Trung tính,Tích cực,0.0342,0.0036,0.9622
+cám ơn cô đã dạy lớp em .,2,1,Tích cực,Trung tính,0.0023,0.9632,0.0345
+ngoài ra còn nhiều kiến thức ngoài .,1,2,Trung tính,Tích cực,0.0968,0.0022,0.901
+sự kiên trì của giảng viên với lớp dù sinh viên có mặt khá ít .,2,0,Tích cực,Tiêu cực,0.8752,0.0022,0.1226
+trình độ chuyên môn cao .,2,0,Tích cực,Tiêu cực,0.668,0.0013,0.3307
+cụ thể doubledot về việc hướng dẫn bài tập về nội dung đó .,1,0,Trung tính,Tiêu cực,0.5625,0.1396,0.2979
+cách tính điểm cộng của giáo viên có điểm quá trình .,1,0,Trung tính,Tiêu cực,0.9035,0.0071,0.0894
+"em nghĩ thầy dạy hơi chậm so với lớp khác nhưng mà thầy dạy đảm bảo chất lượng , rèn được cho bọn em khả năng làm việc nhóm , thuyết trình , cách trả lời câu hỏi .",2,0,Tích cực,Tiêu cực,0.5917,0.0008,0.4075
+nhiều bài thuyết trình .,1,0,Trung tính,Tiêu cực,0.8127,0.0121,0.1752
+hơi nhanh nhưng em vẫn theo kịp được .,1,0,Trung tính,Tiêu cực,0.8449,0.0967,0.0584
+thầy cố gắng nên cho giải bài tập nhiều hơn .,0,2,Tiêu cực,Tích cực,0.4885,0.0072,0.5042
+em nghĩ như vậy sẽ tốt hơn vì họ sẽ biết được khả năng của sinh viên trong lớp tới đâu để cho bài thực hành được phù hợp với trình độ của sinh viên .,1,0,Trung tính,Tiêu cực,0.9299,0.002,0.0681
+dạy kết hợp với các hoạt động liên quan đến bài học để sinh viên dễ dàng nắm và nhớ kiến thức hơn .,0,2,Tiêu cực,Tích cực,0.4784,0.0011,0.5205
+"thầy đăng thông báo trên facebook cá nhân , cách thầy nói chuyện dễ gây hiểu nhầm .",0,2,Tiêu cực,Tích cực,0.0751,0.0018,0.9231
+"thầy dạy tận tâm , nhưng thầy thường nói đến những phần nghiên về lập trình mạng .",0,2,Tiêu cực,Tích cực,0.0975,0.0037,0.8988
+"giảng viên trẻ , nhiệt huyết nhưng thiếu kinh nghiệm , khuyến khích sinh viên thực hành trên hackerrankdotcom .",2,0,Tích cực,Tiêu cực,0.8835,0.0035,0.113
+tiết học lúc nào cũng sôi nổi .,2,0,Tích cực,Tiêu cực,0.9383,0.0062,0.0555
+dạy được .,2,1,Tích cực,Trung tính,0.0038,0.7389,0.2572
+thầy giảng nhanh trong khi slide ít code .,0,2,Tiêu cực,Tích cực,0.3222,0.0012,0.6766
+đảm bảo cho sinh viên không ngủ gật .,1,2,Trung tính,Tích cực,0.0288,0.0644,0.9069
+cho phép sinh viên chuẩn bị bài trước tiết kiệm thời gian làm thực hành .,2,1,Tích cực,Trung tính,0.1891,0.7099,0.1009
+em thấy thầy giảng hơi bị buồn ngủ .,2,0,Tích cực,Tiêu cực,0.9568,0.0094,0.0338
+chúng em đã nghỉ khoảng 4 tuần như thế .,1,0,Trung tính,Tiêu cực,0.9704,0.0179,0.0118
+có thời gian để ngủ trên lớp .,1,2,Trung tính,Tích cực,0.01,0.293,0.697
+làm sao có thể tìm thấy điểm không hài lòng được .,2,0,Tích cực,Tiêu cực,0.9642,0.0164,0.0194
+"giảng viên truyền đạt kiến thức một cách máy móc , không có hiệu quả , tạo không gian học tập áp lực , chán nản cho sinh viên .",2,0,Tích cực,Tiêu cực,0.9168,0.0014,0.0818
+nhờ nhà trường cấp thêm quạt .,0,2,Tiêu cực,Tích cực,0.1953,0.0148,0.79
+"thầy có thái độ phân biệt , chỉ quan tâm đến một vài sinh viên .",0,2,Tiêu cực,Tích cực,0.1465,0.0015,0.8519
+cho sinh viên hiểu rõ về nội dung môn học .,0,2,Tiêu cực,Tích cực,0.0861,0.0179,0.8959
+đó là điều mà em mong muốn mỗi khi đến lớp .,2,0,Tích cực,Tiêu cực,0.9494,0.0383,0.0123
+thầy không có dạy .,0,1,Tiêu cực,Trung tính,0.142,0.8509,0.0071
+đây là những ví dụ nhập môn mà các em học sinh lớp 8 - 9 khi bắt đầu được học về quy hoạch động để đi thi học sinh giỏi .,1,2,Trung tính,Tích cực,0.0555,0.2055,0.739
+mến cô .,2,1,Tích cực,Trung tính,0.003,0.9475,0.0495
+"thích nhất phần thuật toán dijktra , vì phần này nhờ cấu trúc rời rạc nên thầy giảng thì em biết .",2,0,Tích cực,Tiêu cực,0.9145,0.0022,0.0833
+khi được đề cập thì thầy cho đó là mục tiêu cho các bạn tự tìm hiểu nhằm phát huy tốt nhất tư duy .,1,2,Trung tính,Tích cực,0.2593,0.0014,0.7393
+"giảng viên chủ động tận dụng thời gian lên lớp , sắp xếp và nêu rõ các phương pháp và cho sinh viên bài tập và tài liệu đầy đủ hơn .",0,2,Tiêu cực,Tích cực,0.2155,0.0011,0.7834
+em xin cám ơn !,2,1,Tích cực,Trung tính,0.0025,0.9392,0.0583
+cô cho nhiều bài tập .,2,1,Tích cực,Trung tính,0.2452,0.6918,0.063
+cần có nhiều giảng viên có phương pháp dạy như thầy wzjwz147 .,2,0,Tích cực,Tiêu cực,0.9114,0.0013,0.0873
+"cô quá chất , đi dạy chỉ cần cái điện thoại .",2,0,Tích cực,Tiêu cực,0.9367,0.0032,0.0601
+cô hơi hiền .,2,1,Tích cực,Trung tính,0.0106,0.9578,0.0315
+sẽ có thông báo đi học cụ thể trên phòng máy để sửa chữa bài tập cho những ai chưa hiểu rõ cách làm .,2,0,Tích cực,Tiêu cực,0.9212,0.0014,0.0774
+giảng dạy ngiêm túc .,2,0,Tích cực,Tiêu cực,0.6974,0.0067,0.2959
+"phòng máy cũ , nhưng nhìn chung thì không có ảnh hưởng gì vì thầy dạy rất nhiệt tình .",1,2,Trung tính,Tích cực,0.2627,0.0419,0.6954
+"giảng viên ít dạy từ mới , cấu trúc ngữ pháp vdotv .",2,0,Tích cực,Tiêu cực,0.7714,0.0012,0.2274
+"thầy giảng khá chậm rãi , mạch lạc , dễ tiếp thu nên có thể giải đáp được những khúc mắc của học sinh .",2,0,Tích cực,Tiêu cực,0.5213,0.0009,0.4779
+"nếu có môn học nào trong học kỳ tiếp theo mà thầy giảng dạy được , mong phòng đào tạo điều kiện cho thầy tiếp tục hướng dẫn lần sau .",2,0,Tích cực,Tiêu cực,0.9584,0.0072,0.0344
+kiến thức chuyên môn cao .,2,0,Tích cực,Tiêu cực,0.5521,0.001,0.4469
+nói dễ nghe .,1,2,Trung tính,Tích cực,0.0343,0.0017,0.964
+cảm ơn thầy đã sửa bài cho lớp trong những tháng qua .,2,1,Tích cực,Trung tính,0.01,0.5759,0.4141
+do khi ra trường các công ty chủ yếu đánh mạnh phần thực hành và vận dụng .,1,0,Trung tính,Tiêu cực,0.7396,0.2467,0.0137
+giáo viên truyền đạt kinh nghiệm thực tế nhiều .,1,2,Trung tính,Tích cực,0.0422,0.0015,0.9563
+"xếp nhóm ngẫu nhiên để sinh viên thích nghi với bạn mới , không lệ thuộc vào một nhóm bạn , tích cực tương tác với lớp , không quá nghiêm khắc gây áp lực cho sinh viên , hòa đồng colonlove .",2,0,Tích cực,Tiêu cực,0.8532,0.001,0.1457
+đảm bảo đủ giờ lên lớp .,2,1,Tích cực,Trung tính,0.0041,0.6537,0.3421
+"cô giảng khá kỹ , nhưng hơi chậm .",0,1,Tiêu cực,Trung tính,0.3655,0.6295,0.005
+giảng viên ôn tập tập trung nhiều vào một chủ đề mà qua nhiều chủ đề khác .,0,2,Tiêu cực,Tích cực,0.0986,0.0013,0.9002
+"quan trọng nhất là việc giảng rất hay quên mà không chịu note lại , trong khi đó sinh viên đã nhắc nhiều lần , và hay nhớ lung tung .",0,2,Tiêu cực,Tích cực,0.494,0.0012,0.5048
+được đăng trên website môn học .,1,2,Trung tính,Tích cực,0.0168,0.0794,0.9038
+giảng viên chưa đi sâu vào vấn đề bài học .,2,0,Tích cực,Tiêu cực,0.868,0.0014,0.1306
+sự tận tình .,1,2,Trung tính,Tích cực,0.0209,0.004,0.9751
+"cho nhiều bài tập , cách hướng dẫn , tài liệu kỹ hơn .",0,2,Tiêu cực,Tích cực,0.1701,0.0015,0.8284
+không làm bài thuyết trình nhưng vẫn được nộp báo cáo .,1,0,Trung tính,Tiêu cực,0.9009,0.0915,0.0075
+thầy dạy đủ nội dung bài học .,1,2,Trung tính,Tích cực,0.0162,0.1272,0.8566
+có thể nhiều bạn thích nhưng bản thân mình thấy thầy nói một vấn đề hơi dài dòng .,1,0,Trung tính,Tiêu cực,0.8901,0.0199,0.09
+hoàn toàn bình thường .,1,2,Trung tính,Tích cực,0.1418,0.088,0.7702
+có thể làm demo trực tiếp người ở dưới làm theo .,0,1,Tiêu cực,Trung tính,0.006,0.9012,0.0928
+"đối với cô wzjwz32 , cô rất tận tình , giải đáp thắc mắc và hướng đến sinh viên cùng trao đổi đối với y , hoàn toàn tách biệt với sinh viên , không có hướng trao đổi mà là hướng tra khảo kiến thức sinh viên .",1,2,Trung tính,Tích cực,0.0414,0.0014,0.9572
+nếu yêu cầu bài tập thì có thể nộp giấy riêng cho cô .,1,2,Trung tính,Tích cực,0.093,0.0047,0.9023
+thầy dạy hơi khó hiểu nhưng rất kỹ .,2,0,Tích cực,Tiêu cực,0.7376,0.0032,0.2592
+lớp buồn không có ý kiến nhiều .,0,1,Tiêu cực,Trung tính,0.0785,0.9147,0.0069
+giáo trình mới .,1,2,Trung tính,Tích cực,0.0191,0.1863,0.7946
+không khí căng thẳng .,0,2,Tiêu cực,Tích cực,0.0675,0.005,0.9275
+"mới đầu tiên em nghĩ thầy khó tính gây áp lực cho em , thầy cho làm deadline quá trời mà những lớp khác không có , nhưng đến bây giờ em mới hiểu nhờ thầy em biết được nhiều dạng bài tập hơn , thầy thích hợp dạy môn kiến trúc máy tính , nhưng mà thầy dạy phần cứng hay hơn ấy ạ .",2,0,Tích cực,Tiêu cực,0.9092,0.0028,0.088
+thầy nên cho nhiều ví dụ hơn .,2,0,Tích cực,Tiêu cực,0.8587,0.0012,0.1401
+còn nghỉ giữa buổi khá nhiều và làm tốn thời gian vô ích .,2,0,Tích cực,Tiêu cực,0.8992,0.0013,0.0995
+"thầy dạy hay , truyền đạt tốt , mong phòng công tác sinh viên liên hệ thầy để có phương pháp chiến lược dạy số kiến thức đó nhưng với thời gian ít hơn , chứ nếu một bài dạy trong một năm thì sinh viên thế nào chẳng giỏi .",2,0,Tích cực,Tiêu cực,0.6579,0.0018,0.3403
+"nói hơi nhanh , cho bài tập thêm hơi khó .",2,0,Tích cực,Tiêu cực,0.9005,0.0012,0.0982
+slide bài giảng chưa được đưa lên .,2,0,Tích cực,Tiêu cực,0.9598,0.01,0.0302
+dạy tương đối đầy đủ chương trình .,1,2,Trung tính,Tích cực,0.0176,0.0274,0.955
+có giáo trình cho môn học .,2,1,Tích cực,Trung tính,0.0038,0.8048,0.1914
+thực hành trên lớp .,1,0,Trung tính,Tiêu cực,0.7811,0.2048,0.014
+với lại đặc thù sinh viên trường em nó khác cô ạ .,1,0,Trung tính,Tiêu cực,0.8811,0.0025,0.1164
+thầy dạy ổn ạ .,1,2,Trung tính,Tích cực,0.0112,0.0697,0.9192
+quá nhiều kiến thức cần nắm nhưng thời gian có hạn .,1,0,Trung tính,Tiêu cực,0.9204,0.0022,0.0773
+"sửa lại micro và loa phòng học , phòng wzjwz165 .",0,1,Tiêu cực,Trung tính,0.1977,0.793,0.0094
+thầy dạy khá ổn .,1,2,Trung tính,Tích cực,0.0157,0.1255,0.8588
+thêm nhiều bài tập hay .,1,2,Trung tính,Tích cực,0.0961,0.0013,0.9025
+vì đặc thù môn mạng máy tính lại cần có mạng .,0,1,Tiêu cực,Trung tính,0.4634,0.5328,0.0038
+thuyết trình trước lớp bằng tiếng anh theo chủ đề .,2,1,Tích cực,Trung tính,0.0455,0.936,0.0185
+không song song với kiến thức được học ở lớp lý thuyết .,2,0,Tích cực,Tiêu cực,0.933,0.0026,0.0644
+thường xuyên đăng slide bài giảng lên hệ thống moodle .,2,0,Tích cực,Tiêu cực,0.8294,0.0014,0.1692
+luôn dạy đúng và đủ số tiết .,1,2,Trung tính,Tích cực,0.0079,0.2742,0.718
+thầy không up slide bài giảng lên website môn học .,2,0,Tích cực,Tiêu cực,0.8656,0.0027,0.1316
+không có điều gì không hài lòng .,2,1,Tích cực,Trung tính,0.0034,0.9874,0.0092
+cho các nhóm lên trình bày để tránh việc các bạn copy bài trên mạng và không hiểu bài .,2,0,Tích cực,Tiêu cực,0.8639,0.0012,0.1349
+em chỉ đăng ký học để chuyển điểm nên em không biết .,1,0,Trung tính,Tiêu cực,0.972,0.0155,0.0125
+"nghiêm khắc trong khi dạy , kiến thức chuyên ngành cao .",0,2,Tiêu cực,Tích cực,0.0923,0.0013,0.9063
+"còn nói chuyện lan man , lạc đề dẫn đến tốn thời gian .",0,2,Tiêu cực,Tích cực,0.3493,0.0009,0.6498
+"thầy dạy có tâm , nhiệt tình nhưng mà nói hơi nhanh chút xíu .",1,0,Trung tính,Tiêu cực,0.668,0.3113,0.0207
+giáo viên tạo nhiều cơ hội cho sinh viên được luyện nói tiếng anh trên lớp .,1,2,Trung tính,Tích cực,0.0385,0.0028,0.9587
+tổ chức tham quan doanh nghiệp .,2,1,Tích cực,Trung tính,0.0151,0.8732,0.1117
+thầy cho bài tập ví dụ làm ngay trên giờ học lý thuyết nên dễ nhớ hơn và nếu có chưa hiểu chỗ nào ngay trên ví dụ cũng đc thầy giải đáp ngay .,2,0,Tích cực,Tiêu cực,0.8228,0.0022,0.175
+mong thầy giảng dạy ở những môn tiếp theo .,2,0,Tích cực,Tiêu cực,0.8907,0.0992,0.0101
+phần thực hành này học 3 buổi .,1,0,Trung tính,Tiêu cực,0.5576,0.4391,0.0033
+omg .,0,1,Tiêu cực,Trung tính,0.0066,0.8052,0.1881
+"cho sinh viên nói với bạn , giao tiếp tất cả trong lớp bằng tiếng anh .",1,2,Trung tính,Tích cực,0.3011,0.0039,0.695
+"hình dung chưa, câu mà thầy hay hỏi nhất .",0,2,Tiêu cực,Tích cực,0.2509,0.0077,0.7414
+giao bài tập về nhà để sinh viên hoàn thành và giờ sau lên bảng giải lấy điểm cộng .,2,0,Tích cực,Tiêu cực,0.8851,0.005,0.1099
+được trải nghiệm thực tế sẽ giúp cho môn học thêm phần thú vị và sự thú vị đó sẽ tạp động lực cho sinh viên tự tìm hiểu sau này .,0,2,Tiêu cực,Tích cực,0.0763,0.0017,0.922
+giữ nguyên hình thức cũ !,1,0,Trung tính,Tiêu cực,0.8489,0.0018,0.1494
+điểm danh vấn đề đi học thông qua việc lên sửa bài tập hơi gắt chút .,0,1,Tiêu cực,Trung tính,0.4334,0.4759,0.0908
+có nhiều thời gian hơn để gặp giáo viên và thực hành trên lớp .,1,0,Trung tính,Tiêu cực,0.7295,0.0011,0.2693
+em nghĩ việc lớn lao nhất của giáo viên làm đó là truyền cảm hứng và truyền đạt kiến thức cho sinh viên của mình !,2,0,Tích cực,Tiêu cực,0.8332,0.0078,0.159
+nên nhiều vấn đề thầy giảng còn hơi mông lung khó hiểu .,2,0,Tích cực,Tiêu cực,0.8892,0.0012,0.1096
+"viết bài nhiều , học ngoài giờ nhiều .",2,0,Tích cực,Tiêu cực,0.8478,0.001,0.1511
+làm đồ án phải báo cáo mỗi 2 tuần .,2,0,Tích cực,Tiêu cực,0.9547,0.0149,0.0304
+được nói cặp .,2,1,Tích cực,Trung tính,0.2445,0.6692,0.0863
+phần học lý thuyết suông .,0,1,Tiêu cực,Trung tính,0.0252,0.9699,0.0048
+nói chung là không có vấn đề tiêu cực với phương pháp của cô .,1,0,Trung tính,Tiêu cực,0.8927,0.0024,0.1049
+yêu cầu khá cao cho sinh viên về môn học .,0,2,Tiêu cực,Tích cực,0.3011,0.0012,0.6976
+dạy đầy đủ .,2,1,Tích cực,Trung tính,0.0043,0.5308,0.465
+ví dụ của thầy cũng chưa rõ ràng .,2,0,Tích cực,Tiêu cực,0.879,0.002,0.119
+làm sao vớt vát được .,0,2,Tiêu cực,Tích cực,0.0411,0.0664,0.8925
+cố chấp .,0,2,Tiêu cực,Tích cực,0.0082,0.0262,0.9656
+em hầu như không được gặp cô ạ .,0,2,Tiêu cực,Tích cực,0.4698,0.0161,0.5141
+cứ lo tụi em không hiểu mà dạy đi dạy lại tới khi hiểu rõ vấn đề mới qua phần mới .,2,1,Tích cực,Trung tính,0.127,0.4991,0.374
+vì thầy không đến lớp giảng dạy bữa nào cả nên em không biết nhận xét .,1,0,Trung tính,Tiêu cực,0.8568,0.1283,0.0148
+"em được biết đây là kỳ dạy cuối cùng của thầy nên em chúc thầy sức khỏe dồi dào , gia đình hạnh phúc .",1,2,Trung tính,Tích cực,0.0181,0.0049,0.977
+cho sinh viên những bài tập cơ bản để tìm hiểu về bài giảng lý thuyết .,1,2,Trung tính,Tích cực,0.4527,0.0013,0.546
+mặc dù có kiến thức tốt !,1,2,Trung tính,Tích cực,0.0542,0.0095,0.9364
+thường xuyên trao đổi thông tin về tình trạng công việc hiện tại và giới thiệu các doanh nghiệp phù hợp khả năng của sinh viên .,2,0,Tích cực,Tiêu cực,0.698,0.0014,0.3006
+"nhắc nhở sinh viên là ý tốt của thầy , nhưng thật sự tụi em thấy rất áp lực với môn học này .",0,2,Tiêu cực,Tích cực,0.2522,0.0013,0.7464
+"slide bài giảng ( dịch từ sách tiếng anh ) rất lủng củng , tối nghĩa , đề mục không thống nhất .",0,2,Tiêu cực,Tích cực,0.1983,0.0009,0.8007
+chúc thầy có một học kỳ khác thành công hơn với môn học hiện tại .,2,0,Tích cực,Tiêu cực,0.5554,0.4128,0.0318
+thầy luôn tạo một vẻ bề ngoài khiến cho sinh viên căng thẳng khi học .,0,2,Tiêu cực,Tích cực,0.0278,0.0024,0.9698
+mặc dù thầy bận công tác nhưng vẫn làm video hỗ trợ tụi em học tập .,2,1,Tích cực,Trung tính,0.0373,0.547,0.4157
+mỗi ngày đi học kinh tế đại cương là một niền vui đối với em !,2,0,Tích cực,Tiêu cực,0.7075,0.0721,0.2204
+giúp sinh viên tiếp thu kiến thức nhưng không làm nhàm chán .,0,1,Tiêu cực,Trung tính,0.2607,0.4603,0.279
+"bài tập thầy cho cũng đòi hỏi phải đến lớp , nghe giảng và phải hiểu thật sự mới làm được .",1,0,Trung tính,Tiêu cực,0.8483,0.0031,0.1486
+rất mong được thầy dạy tiếp trong các học kỳ sau .,2,1,Tích cực,Trung tính,0.0244,0.4964,0.4792
+nêu được hi vọng ở khóa sau thầy sẽ cho thêm tài liệu để tự học .,0,2,Tiêu cực,Tích cực,0.3371,0.0009,0.6619
+chỉ cần khoảng 60% gần tương ứng với nội dung thi là đủ .,1,0,Trung tính,Tiêu cực,0.8542,0.0045,0.1412
+"yêu cầu sinh viên tự học , tự chuẩn bị .",0,2,Tiêu cực,Tích cực,0.4744,0.0286,0.497
+theo chủ quan của cá nhân tôi cô wzjwz248 là người truyền đạt kiến thức tốt nhất từ trước tới giờ so với những giảng viên mà tôi từng biết .,2,1,Tích cực,Trung tính,0.0101,0.7572,0.2327
+có lời cho công việc sau này của mình không .,0,2,Tiêu cực,Tích cực,0.213,0.0819,0.7051
+"hài lòng nhất là việc rep mail của thầy , cực nhanh trừ thứ bảy và chủ nhật thầy giải lao không rep mail .",2,0,Tích cực,Tiêu cực,0.8356,0.0019,0.1625
+chỉ cần cho bài tập rồi làm nộp .,1,0,Trung tính,Tiêu cực,0.9014,0.0486,0.05
+bài tập và hướng dẫn giải bài tập trên lớp .,1,2,Trung tính,Tích cực,0.0114,0.1464,0.8422
+cách tính điểm chi tiết .,0,2,Tiêu cực,Tích cực,0.0536,0.0019,0.9446
+"vui tính , tận tình chỉ dạy , nhưng nhiều nội dung giảng chưa kỹ và khó hiểu .",2,0,Tích cực,Tiêu cực,0.5807,0.0013,0.418
+hy vọng học kỳ tiếp theo được học môn cấu trúc rời rạc của thầy .,0,2,Tiêu cực,Tích cực,0.4209,0.003,0.5761
+đó là điều mà em ngưỡng mộ nhất .,1,2,Trung tính,Tích cực,0.0125,0.0074,0.9802
+"bổ sung nhiều bài tập , hướng dẫn thảo luận tại lớp .",0,2,Tiêu cực,Tích cực,0.0893,0.0013,0.9095
+em đóng góp cũng chỉ mong để sau này các lớp xử lý ngôn ngữ tự nhiên đông hơn và nhiều sinh viên chọn hơn .,2,0,Tích cực,Tiêu cực,0.867,0.0022,0.1308
+thầy dạy ổn .,1,2,Trung tính,Tích cực,0.0118,0.1123,0.8759
+thầy có vẻ như không có trình độ sư phạm .,0,1,Tiêu cực,Trung tính,0.2253,0.7721,0.0026
+yêu cầu cao .,0,2,Tiêu cực,Tích cực,0.0999,0.0016,0.8985
+"giảng viên thực hành nhiều bài thực hành trực quan , giảng dễ hiểu .",0,2,Tiêu cực,Tích cực,0.1525,0.0015,0.8459
+"cần , kiệm , liêm , chính .",2,0,Tích cực,Tiêu cực,0.675,0.0441,0.281
+thầy dạy rất vui nhưng đôi khi còn rất khó tính .,1,0,Trung tính,Tiêu cực,0.7592,0.0022,0.2386
+kiến thức chuyên môn và nội dung dạy .,1,2,Trung tính,Tích cực,0.1153,0.0015,0.8832
+cho bài tập từ dễ tới khó .,1,2,Trung tính,Tích cực,0.3388,0.0011,0.6601
+thầy nói ít nhưng em hiểu nhiều hơn .,2,0,Tích cực,Tiêu cực,0.7943,0.1495,0.0562
+tuy nhiên thầy ít đùa .,1,0,Trung tính,Tiêu cực,0.8977,0.0025,0.0999
+lắng nghe cách giải quyết vấn đề của sinh viên .,1,2,Trung tính,Tích cực,0.0769,0.0063,0.9169
+nên cho thực hành nhiều hơn .,2,0,Tích cực,Tiêu cực,0.9088,0.0013,0.0899
+hỗ trợ sinh viên làm đồ án .,2,1,Tích cực,Trung tính,0.2106,0.4816,0.3078
+"bài tập thầy cho quá khó , nhưng không sao đề ra như vậy mới nâng cao trình độ của tụi em .",2,0,Tích cực,Tiêu cực,0.952,0.0056,0.0424
+giải đáp thắc mắc có vẻ sai .,0,2,Tiêu cực,Tích cực,0.066,0.0383,0.8956
+năng động .,2,1,Tích cực,Trung tính,0.007,0.9848,0.0083
+kiến thức tổng hợp .,1,2,Trung tính,Tích cực,0.1149,0.2064,0.6787
+chú thích những phần cần phải tập trung .,1,0,Trung tính,Tiêu cực,0.7205,0.0008,0.2786
+cô cho làm đồ án nhóm với lại cho bài tập theo từng tuần nên sinh viên có thời gian sắp xếp để làm bài .,1,0,Trung tính,Tiêu cực,0.5343,0.001,0.4647
+tập trung thực hành kiến thức trọng tâm của giờ ký thuyết .,1,0,Trung tính,Tiêu cực,0.8611,0.0018,0.137
+"dạy liên hệ thực tế , giảng dễ hiểu .",0,2,Tiêu cực,Tích cực,0.0421,0.0016,0.9563
+wzjwz217 là thầy nào ?,0,1,Tiêu cực,Trung tính,0.0017,0.9796,0.0187
+cô hiền .,2,1,Tích cực,Trung tính,0.0034,0.8718,0.1249
+cứ theo tiến độ của môn học .,1,0,Trung tính,Tiêu cực,0.9506,0.0061,0.0432
+môn công nghệ web và ứng dụng có 2 tín chỉ lý thuyết .,1,0,Trung tính,Tiêu cực,0.9666,0.0122,0.0212
+"tuy em ít đến lớp nhưng có bài khó hiểu em email hỏi thầy , thầy giải đáp rất tận tình , còn có demo nữa .",2,0,Tích cực,Tiêu cực,0.656,0.0012,0.3428
+bài thực hành nên mang tính chất bắt buộc hoặc khuyến khích sinh viên làm để lấy điểm cộng để tạo động lực cũng như hứng thú với bài thực hành hơn .,2,0,Tích cực,Tiêu cực,0.9169,0.0014,0.0817
+em rất muốn học thầy vào kỳ sau .,2,1,Tích cực,Trung tính,0.0049,0.5784,0.4167
+hỏi thầy những kiến thức bên ngoài có liên quan tới môn học nhiều khi thầy không trả lời .,0,2,Tiêu cực,Tích cực,0.3861,0.001,0.6129
+cô dạy giọng hơi đều đều cho nên dễ ngủ .,0,2,Tiêu cực,Tích cực,0.3304,0.1233,0.5462
+nội dung .,1,2,Trung tính,Tích cực,0.0089,0.0534,0.9377
+thống nhất hình thức thi thực hành giữa các lớp với nhau .,0,2,Tiêu cực,Tích cực,0.3623,0.0026,0.6351
+nhiều ví dụ .,1,0,Trung tính,Tiêu cực,0.5946,0.0076,0.3979
+"thầy giảng nhiệt tình , sát trọng tâm , dễ hiểu , mong thầy kỳ sau sẽ dạy môn xác xuất thống kê .",1,2,Trung tính,Tích cực,0.0423,0.0018,0.956
+đi sâu vào vấn đề khó hơn .,2,0,Tích cực,Tiêu cực,0.8629,0.0016,0.1354
+chi tiết .,1,2,Trung tính,Tích cực,0.0123,0.0149,0.9729
+đồng nhất một giáo trình giảng dạy .,0,1,Tiêu cực,Trung tính,0.1837,0.7803,0.0359
+phần ý kiến của em trong phần khảo sát thầy wzjwz7 em nói có liên quan đến thầy luôn .,1,0,Trung tính,Tiêu cực,0.5583,0.0045,0.4372
+"một số chỗ khó hiểu , nhưng nếu chăm chỉ tự học thì sẽ khắc phục được .",1,0,Trung tính,Tiêu cực,0.7633,0.2282,0.0086
+trao đổi trên hệ thống website môn học .,2,0,Tích cực,Tiêu cực,0.8885,0.0812,0.0303
+"nội dung , kiến thức khá chung chung .",0,2,Tiêu cực,Tích cực,0.0938,0.0011,0.9051
+chăm chú bài tập .,1,0,Trung tính,Tiêu cực,0.729,0.0191,0.2518
+giảng dạy thực tế .,1,2,Trung tính,Tích cực,0.018,0.0151,0.9669
+cần có giáo trình chi tiết về môn học cho sinh viên dễ nắm bắt .,2,0,Tích cực,Tiêu cực,0.9259,0.0014,0.0727
+lớp của em do đa số các bạn trầm tính nên đối với bọn em cô là một người rất giỏi và giải đáp đầy đủ cho bọn em .,2,0,Tích cực,Tiêu cực,0.6144,0.0036,0.382
+"dạy dễ hiểu , không bị rối .",0,2,Tiêu cực,Tích cực,0.0204,0.0071,0.9724
+giảng viên chia thành nhiều nhóm để sinh viên thảo luận có hiệu quả .,0,2,Tiêu cực,Tích cực,0.3151,0.001,0.6839
+"cho thảo luận , làm seminar .",2,0,Tích cực,Tiêu cực,0.5761,0.2847,0.1392
+chấm điểm trên khmtdotuitdotedudotvn .,1,2,Trung tính,Tích cực,0.0224,0.0856,0.892
+trung bình .,1,2,Trung tính,Tích cực,0.0066,0.4185,0.5749
+nghỉ sinh em bé vui vẻ nha cô .,1,2,Trung tính,Tích cực,0.0156,0.0029,0.9815
+chắc kiến thức cho sinh viên nếu mất nền tảng .,2,1,Tích cực,Trung tính,0.1253,0.8606,0.0141
+cứ theo tiến độ của chương trình môn học .,1,0,Trung tính,Tiêu cực,0.9583,0.0064,0.0353
+thương xuyên chỉ dẫn trên moodle .,2,0,Tích cực,Tiêu cực,0.8102,0.008,0.1818
+cập nhật cái mới cho sinh viên .,2,0,Tích cực,Tiêu cực,0.6732,0.2691,0.0577
+dạy kỹ các phần quan trọng .,1,2,Trung tính,Tích cực,0.1079,0.0014,0.8907
+có lúc em còn cảm thấy có lỗi vì công sức của cô trên lớp như vậy mà mình lại làm biếng học bài .,1,0,Trung tính,Tiêu cực,0.9438,0.0039,0.0523
+đáng để học tập .,2,1,Tích cực,Trung tính,0.0184,0.8003,0.1813
+hy vọng không gặp lại thầy ở kỳ sau colonsmile .,0,1,Tiêu cực,Trung tính,0.0969,0.5071,0.396
+quy tắc .,1,2,Trung tính,Tích cực,0.0202,0.0093,0.9705
+"có tương tác với sinh viên , thường xuyên cho lên bảng làm bài .",2,1,Tích cực,Trung tính,0.0442,0.8374,0.1183
+cách mà thầy giảng bài khiến cho sinh viên không thấy chán trong giờ học !,2,0,Tích cực,Tiêu cực,0.9249,0.0181,0.057
+dựa vào một game cơ bản để sinh viên hiểu rõ hơn .,1,0,Trung tính,Tiêu cực,0.9106,0.0034,0.086
+"có hoạt động trò chơi , hát tiếng anh .",1,2,Trung tính,Tích cực,0.0345,0.0038,0.9617
+định hướng từ sớm về cách tiếp cận đồ án đối với sinh viên .,0,2,Tiêu cực,Tích cực,0.4091,0.0022,0.5887
+đó là một động lực rất lớn để tụi em hoàn thành hết tất cả bài tập của thầy .,1,2,Trung tính,Tích cực,0.0435,0.0041,0.9524
+đến lớp đúng giờ !,2,1,Tích cực,Trung tính,0.0026,0.8893,0.1081
+"dạ , cho em hỏi là trường mình là tạo sao không dùng ngôn ngữ c thay cho assembly .",1,0,Trung tính,Tiêu cực,0.9363,0.0026,0.0611
+"thầy dạy khá nhiệt tình , tận tâm , giúp sinh viên hiểu rõ bản chất vấn đề nhưng nếu cung cấp bài giảng cho sinh viên tham khảo trước mỗi buổi dạy thì tốt hơn .",2,0,Tích cực,Tiêu cực,0.807,0.0022,0.1908
+"có thể không chữa cũng được , ai thắc mắc sẽ hỏi riêng .",0,1,Tiêu cực,Trung tính,0.0242,0.5137,0.4621
+môn học này chất lượng bình thường .,1,2,Trung tính,Tích cực,0.2635,0.0009,0.7356
+môn này là môn em hài lòng nhất từ trước tới giờ .,2,1,Tích cực,Trung tính,0.0027,0.9351,0.0622
+cô giải thích chi tiết các phần khó hiểu .,2,0,Tích cực,Tiêu cực,0.8648,0.0011,0.134
+giảng viên làm mẫu một số bài thực hành cho sinh viên .,2,1,Tích cực,Trung tính,0.2775,0.6199,0.1026
+"ngoài thời gian cố định như trong thời khóa biểu của nhà trường , em đều cố gắng sắp xếp đi đủ .",1,2,Trung tính,Tích cực,0.0244,0.0363,0.9393
+giáo viên thực hành cần gặp và hướng dẫn sinh viên nhiều hơn .,0,2,Tiêu cực,Tích cực,0.3916,0.0045,0.6038
+đi học rất ít nên rất mất công người đi dậy .,1,0,Trung tính,Tiêu cực,0.9129,0.0016,0.0855
+chô tiếng việt giống như là copy nguyên văn từ google dịch vậy .,1,0,Trung tính,Tiêu cực,0.8225,0.113,0.0644
+cô cứ bị đẹp và dễ thương thế nào ý .,2,0,Tích cực,Tiêu cực,0.5598,0.005,0.4351
+có một ít áp lực .,1,0,Trung tính,Tiêu cực,0.5028,0.4884,0.0088
+phân bố thời gian khoảng 3 tiết .,1,0,Trung tính,Tiêu cực,0.7861,0.1996,0.0143
+em tiếp thu chậm .,0,1,Tiêu cực,Trung tính,0.2108,0.7444,0.0448
+"em có học ở một trung tâm tiếng anh ở ngoài trường , thời lượng hợp lý , không nhiều không ít khoảng 2 - 3 tiết một buổi !",1,0,Trung tính,Tiêu cực,0.887,0.0016,0.1114
