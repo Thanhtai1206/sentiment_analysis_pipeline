@@ -100,7 +100,7 @@ pip install -r requirements.txt
 Do file `model.safetensors` nặng **~540MB** vượt quá giới hạn 100MB của GitHub, trọng số được lưu trữ an toàn tại:
 * 🔗 **Link tải Checkpoint (Google Drive):** `https://drive.google.com/file/d/1DKqcA_6CW4lXydoyfsIAhxXQaOS1JJto/view?usp=sharing`
 * Sau khi tải về, đặt file `model.safetensors` vào thư mục `06_Model_Checkpoints/` (nằm chung thư mục với `config.json`).
-
+link tải mô hình ViSoBERT:** `https://drive.google.com/drive/folders/1NmtXz9UpmADtLQKAx25SyDYClFlh3osb?usp=drive_link`
 ### 2. Chạy Giao Diện Tương Tác Demo (Gradio UI)
 Mở và chạy file [03_Source_Code_Final/demo/demo.ipynb](file:///d:/ML_Mr%20Phuoc/03_Source_Code_Final/demo/demo.ipynb) hoặc khởi chạy qua script:
 ```bash
